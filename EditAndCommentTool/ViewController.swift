@@ -11,9 +11,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
-
+    @IBAction func commentBtnTapped(_ sender: UIButton)
+    {
+        let annotation_VC = storyboard?.instantiateViewController(withIdentifier: "AnnotationDisplayViewController") as? AnnotationDisplayViewController
+        annotation_VC?.modalPresentationStyle = .overCurrentContext
+        self.present(annotation_VC!, animated: true, completion: nil)
+    }
+    
 }
 

@@ -1,0 +1,16 @@
+PODS:
+  - VerticalSlider (1.0.3)
+
+DEPENDENCIES:
+  - VerticalSlider
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - VerticalSlider
+
+SPEC CHECKSUMS:
+  VerticalSlider: 4dacdf1ba587956142e12087f96922166ec2b58d
+
+PODFILE CHECKSUM: 6a7dbfdec958242818ae023c6150459cdff500ce
+
+COCOAPODS: 1.5.0
